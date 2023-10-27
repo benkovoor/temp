@@ -1,0 +1,77 @@
+/* General styles for the body and heading */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Style the employee form container */
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Style text input fields and select elements */
+input[type="text"],
+input[type="email"],
+input[type="contact_no"],
+input[type="Yearofjoin"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style submit buttons */
+button[type="submit"],
+button[type="button"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the CRUD options container */
+#crudOptions {
+    background-color: #f0f0f0;
+   
+}
+
+/* Style the employee list container */
+#employeeList {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: left;
+}
